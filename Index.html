@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voli Cazzuti</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Voli Cazzuti</h1>
+    <p>Trova il volo migliore al prezzo più basso!</p>
+  </header>
+
+  <section id="search-section">
+    <h2>Ricerca Volo</h2>
+    <form id="search-form">
+      <input type="text" id="from-city" placeholder="Città di partenza" required>
+      <input type="text" id="to-city" placeholder="Città di arrivo" required>
+      <input type="date" id="departure-date" required>
+      <input type="number" id="adults" placeholder="Numero di adulti" min="1" value="1" required>
+      <button type="submit">Cerca Volo</button>
+    </form>
+  </section>
+
+  <section id="results-section">
+    <h2>Risultati Voli</h2>
+    <ul id="results-list">
+      <!-- I risultati dei voli verranno visualizzati qui -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Voli Cazzuti | Tutti i diritti riservati</p>
+  </footer>
+</body>
+</html>
